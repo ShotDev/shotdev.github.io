@@ -127,7 +127,7 @@
                     <h1 class="title is-2" style="font-family: Montserrat;">
                         <span style="title is-2">Documentation</span>
                     </h1>
-                    <h2 class="subtittle">Music Commands</h2>
+                    <h2 class="subtittle">Moderation Commands</h2>
                 </div>
             </div>
         </section>
@@ -137,27 +137,38 @@
                 <div class="columns">
                     <div class="column is-3">
 
-                      <aside class="menu">
-                          <p class="menu-label">
-                              Documentation
-                          </p>
-                          <ul class="menu-list">
-                              <li>
-                                  <a href="docs.html">Quick Guide</a>
-                                  <ul>
-                                      <li><a href="docs-xp.html">XP</a></li>
-                                      <li><a href="docs-money.html">Money</a></li>
-                                      <li><a href="docs-info.html">Information</a></li>
-                                      <li><a href="docs-fun.html">Fun</a></li>
-                                      <li><a href="docs-admin.html">Administration</a></li>
-                                      <li><a href="docs-mod.html">Moderation</a></li>
-                                      <li><a href="docs-music.html" class="is-active">Music</a></li>
-                                  </ul>
-                              </li>
-                          </ul>
+                        <aside class="menu">
+                            <p class="menu-label">
+                                Documentation
+                            </p>
+                            <ul class="menu-list">
+                                <li>
+                                    <a href="docs.html">Quick Guide</a>
+                                    <ul>
+                                        <li><a href="docs-xp.html">XP</a></li>
+                                        <li><a href="docs-money.html" class="is-active">Money</a></li>
+                                        <li><a href="docs-info.html">Information</a></li>
+                                        <li><a href="docs-fun.html">Fun</a></li>
+                                        <li><a href="docs-admin.html">Administration</a></li>
+                                        <li><a href="docs-mod.html">Moderation</a></li>
+                                        <li><a href="docs-music.html">Music</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
 
-                      </aside>
+                        </aside>
 
+                    </div>
+                    <div class="column">
+                        <article class="message is-info">
+                            <div class="message-header">
+                              Money Information
+                            </div>
+                            <div class="message-body">
+                              <b>Money</b><br>
+                              ShotBot comes with a money system that lets people have virtual coins.
+                            </div>
+                        </article>
                     </div>
                     <div class="column">
                         <table class="table is-bordered is-narrow">
@@ -171,41 +182,30 @@
                             </thead>
                             <tbody>
                               <tr>
-                                  <td><code>m/help</code></td>
-                                  <td></td>
-                                  <td>m/help (command)</td>
-                                  <td>Get help</td>
+                                  <td><code>/money</code></td>
+                                  <td>/bal</td>
+                                  <td>/money (user)</td>
+                                  <td>Shows your money or for the mentioned user</td>
                               </tr>
                               <tr>
-                                  <td><code>m/pause</code></td>
+                                  <td><code>/daily</code></td>
                                   <td></td>
-                                  <td>m/pause</td>
-                                  <td>Pauses the song</td>
+                                  <td>/daily</td>
+                                  <td>Get your daily bonus</td>
                               </tr>
                               <tr>
-                                  <td><code>m/resume</code></td>
+                                  <td><code>/givemoney</code></td>
                                   <td></td>
-                                  <td>m/resume</td>
-                                  <td>Resumes the song</td>
+                                  <td>/givemoney [user] [amount]</td>
+                                  <td>Give money to the specified user. Permlevel: 4</td>
                               </tr>
                               <tr>
-                                  <td><code>m/play</code></td>
+                                  <td><code>/takemoney</code></td>
                                   <td></td>
-                                  <td>m/play [Song name/ YouTube link]</td>
-                                  <td>Queues a song</td>
+                                  <td>/takemoney [user] [amount]</td>
+                                  <td>Take money from the specified user. Permlevel: 4</td>
                               </tr>
-                              <tr>
-                                  <td><code>m/queue</code></td>
-                                  <td></td>
-                                  <td>m/queue</td>
-                                  <td>Shows the queue</td>
-                              </tr>
-                              <tr>
-                                  <td><code>m/search</code></td>
-                                  <td></td>
-                                  <td>m/search [youtube name]</td>
-                                  <td>Search for a song</td>
-                              </tr>
+
                             </tbody>
                         </table>
                     </div>

@@ -127,7 +127,7 @@
                     <h1 class="title is-2" style="font-family: Montserrat;">
                         <span style="title is-2">Documentation</span>
                     </h1>
-                    <h2 class="subtittle">Music Commands</h2>
+                    <h2 class="subtittle">Moderation Commands</h2>
                 </div>
             </div>
         </section>
@@ -137,27 +137,50 @@
                 <div class="columns">
                     <div class="column is-3">
 
-                      <aside class="menu">
-                          <p class="menu-label">
-                              Documentation
-                          </p>
-                          <ul class="menu-list">
-                              <li>
-                                  <a href="docs.html">Quick Guide</a>
-                                  <ul>
-                                      <li><a href="docs-xp.html">XP</a></li>
-                                      <li><a href="docs-money.html">Money</a></li>
-                                      <li><a href="docs-info.html">Information</a></li>
-                                      <li><a href="docs-fun.html">Fun</a></li>
-                                      <li><a href="docs-admin.html">Administration</a></li>
-                                      <li><a href="docs-mod.html">Moderation</a></li>
-                                      <li><a href="docs-music.html" class="is-active">Music</a></li>
-                                  </ul>
-                              </li>
-                          </ul>
+                        <aside class="menu">
+                            <p class="menu-label">
+                                Documentation
+                            </p>
+                            <ul class="menu-list">
+                                <li>
+                                    <a href="docs.html">Quick Guide</a>
+                                    <ul>
+                                        <li><a href="docs-xp.html" class="is-active">XP</a></li>
+                                        <li><a href="docs-money.html">Money</a></li>
+                                        <li><a href="docs-info.html">Information</a></li>
+                                        <li><a href="docs-fun.html">Fun</a></li>
+                                        <li><a href="docs-admin.html">Administration</a></li>
+                                        <li><a href="docs-mod.html">Moderation</a></li>
+                                        <li><a href="docs-music.html">Music</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
 
-                      </aside>
+                        </aside>
 
+                    </div>
+                    <div class="column">
+                        <article class="message is-info">
+                            <div class="message-header">
+                              XP Information
+                            </div>
+                            <div class="message-body">
+                              <b>XP</b><br>
+                              ShotBot comes with an xp system that let's people rank up to higher levels. Everyone gets a little bit amount of xp per message between 20 and 30. The xp gets added after one minute to prevent spam rankup.<br>
+                              <br>The roles:<br><br>
+                              Level 1: Level 1<br>
+                              Level 2: Level 2<br>
+                              Level 3: Level 3<br>
+                              Level 4: Level 4<br>
+                              Level 5: Level 5<br>
+                              Level 6: Level 6<br>
+                              Level 7: Level 7<br>
+                              Level 8: Level 8<br>
+                              Level 9: Level 9<br>
+                              Level 10: Level 10<br>
+                              Prestige: 🌟
+                            </div>
+                        </article>
                     </div>
                     <div class="column">
                         <table class="table is-bordered is-narrow">
@@ -171,41 +194,18 @@
                             </thead>
                             <tbody>
                               <tr>
-                                  <td><code>m/help</code></td>
+                                  <td><code>/xp</code></td>
                                   <td></td>
-                                  <td>m/help (command)</td>
-                                  <td>Get help</td>
+                                  <td>/xp (user)</td>
+                                  <td>Shows your xp or for the mentioned user</td>
                               </tr>
                               <tr>
-                                  <td><code>m/pause</code></td>
+                                  <td><code>/transferxp</code></td>
                                   <td></td>
-                                  <td>m/pause</td>
-                                  <td>Pauses the song</td>
+                                  <td>/transferxp [user] [amount]</td>
+                                  <td>Transfer xp to the mentioned user</td>
                               </tr>
-                              <tr>
-                                  <td><code>m/resume</code></td>
-                                  <td></td>
-                                  <td>m/resume</td>
-                                  <td>Resumes the song</td>
-                              </tr>
-                              <tr>
-                                  <td><code>m/play</code></td>
-                                  <td></td>
-                                  <td>m/play [Song name/ YouTube link]</td>
-                                  <td>Queues a song</td>
-                              </tr>
-                              <tr>
-                                  <td><code>m/queue</code></td>
-                                  <td></td>
-                                  <td>m/queue</td>
-                                  <td>Shows the queue</td>
-                              </tr>
-                              <tr>
-                                  <td><code>m/search</code></td>
-                                  <td></td>
-                                  <td>m/search [youtube name]</td>
-                                  <td>Search for a song</td>
-                              </tr>
+
                             </tbody>
                         </table>
                     </div>
